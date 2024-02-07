@@ -1,0 +1,25 @@
+{
+  "name": "rideevee",
+  "version": "1.0.0",
+  "description": "Basic crud implementation",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "jest"
+  },
+  "author": "Pavan Kumar Sunke",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.1.1",
+    "nodemon": "^3.0.3",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
